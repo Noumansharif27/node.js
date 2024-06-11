@@ -9,5 +9,5 @@ for (let i = 2; i < arguments.length; i++) {
   console.log(process.argv[i]);
 }
 
-let import = module.exports(./math.js);
-console.log(imort(5 + 9));
+let someValue = require("./math.js");
+console.log(someValue(5 + 9));
