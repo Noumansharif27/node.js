@@ -8,3 +8,6 @@ let arguments = process.argv;
 for (let i = 2; i < arguments.length; i++) {
   console.log(process.argv[i]);
 }
+
+let import = module.exports(./math.js);
+console.log(imort(5 + 9));
